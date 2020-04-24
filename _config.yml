@@ -129,7 +129,12 @@ sitemap:
   path: sitemap.xml
   template: ./sitemap_template.xml
   rel: false
-lazyload:
-  enable: true
-  onlypost: false
-  loadingImg: /images/loaddingif.gif
+# lazyload:
+#   enable: true
+#   onlypost: false
+#   loadingImg: /images/loaddingif.gif
+all_minifier: true
+webPushNotification:
+  webpushrKey: 'M92QGqiliYPpMmTkNjgAALLIh5-4oNmLfFLrvlCRSY8'
+  webpushrAuthToken: '5016'
+  trackingCode: 'BGIF-nevndimBG_qolCIfvKkPCEB1lX8orFiANy1SyN09kDtwmdEb_zer0UqBSwRWcCoWjOM7ObLl6zMqXl58YA'

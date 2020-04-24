@@ -3,6 +3,7 @@ title: Hướng dẫn làm một trang blog cá nhân bằng Hexo
 date: 2020-04-24 13:21:02
 tags:
   - 'GitHub'
+  - 'Hexo'
 categories:
   - 'Framework'
   - 'Developer'
@@ -16,7 +17,7 @@ Bài viết này mình sẽ sử dụng Hexo và GitHub làm hướng dẫn và 
 
 ### Yêu cầu
 
-- Nodejs 8 trở lên. Bạn có thể cài nodejs tại https://nodejs.org và tìm các phiên bản phù hợp. mình đang dùng phiên bản Nodejs 12
+- Nodejs 8 trở lên. Bạn có thể cài nodejs tại https://nodejs.org và tìm các phiên bản phù hợp. Mình đang dùng phiên bản Nodejs 12
 
 ## Cài đặt
 
@@ -57,9 +58,9 @@ Bản chất thì hexo sẽ sinh ra file .html tĩnh tương ứng với bài vi
 
 ### Hexo theme
 
-Bất cứ Blog framework nào cũng sẽ hỗ trợ theme cho bạn lựa chọn. Hexo cũng vậy, có một tá theme ở đây. Hầu như các theme ở đấy đều miễn phí và mã nguồn mỡ trên github.
+Bất cứ Blog framework nào cũng sẽ hỗ trợ theme cho bạn lựa chọn. Hexo cũng vậy, có một tá theme ở đây. Hầu như các theme ở đấy đều miễn phí và mã nguồn mở trên github.
 
-Cài đặt theme ra sao? Thư mục theme ở /thư mục gốc/themes. trong thư mục này mỗi thư mục con là một theme. Vậy nên để cài đặt theme mới thì việc đầu tiên là bạn phải clone code theme đó vào thư mục themes của Hexo. Ví dụ mình sử dụng theme cactus thì thư mục sẽ như sau:
+Cài đặt theme ra sao? Thư mục theme ở /thư mục gốc/themes. Trong thư mục này mỗi thư mục con là một theme. Vậy nên để cài đặt theme mới thì việc đầu tiên là bạn phải clone code theme đó vào thư mục themes của Hexo. Ví dụ mình sử dụng theme cactus thì thư mục sẽ như sau:
 
 Cấu hình để Hexo nhận theme vừa tải về như sau: giả sử bạn vừa tải về theme cactus. Bây giờ mở file \_config.yml trong thư mục blog ra. Sử dòng cấu hình theme thành như sau:
 
