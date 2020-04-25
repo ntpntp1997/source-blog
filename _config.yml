@@ -13,18 +13,18 @@ fbcomments:
 
 # Site
 title: Blog Developer
-subtitle: ''
-description: ''
-keywords:
+subtitle: Technology programs
+description: Developer Frontend BackEnd Website App Mobile
+keywords: Developer Frontend BackEnd
 author: Thanh Phuong
 language: en
-timezone: ''
+timezone: UTC +7
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://ntpntp1997.github.io/
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -127,13 +127,14 @@ deploy:
   repo: https://github.com/ntpntp1997/ntpntp1997.github.io.git
 sitemap:
   path: sitemap.xml
-  template: ./sitemap_template.xml
-  rel: false
 # lazyload:
 #   enable: true
 #   onlypost: false
 #   loadingImg: /images/loaddingif.gif
 all_minifier: true
+nofollow:
+  enable: true
+  field: site
 webPushNotification:
   webpushrKey: 'M92QGqiliYPpMmTkNjgAALLIh5-4oNmLfFLrvlCRSY8'
   webpushrAuthToken: '5016'
