@@ -1,0 +1,17 @@
+{
+  "published": [
+    {
+      "title": "Hướng dẫn xây dựng một trang blog cá nhân đơn giản bằng Hexo và deploy lên github",
+      "permalink": "https://ntpntp1997.github.io/Huong-dan-xay-dung-mot-trang-blog-ca-nhan-don-gian-bang-Hexo-va-deploy-len-github/",
+      "description": "Hexo được tạo ra bằng Node.js và với mục đích chính dùng cho trang blog. Giống với rất nhiều static site generators khác, bạn cũng sẽ soạn thảo nội dung với markdown. Template mặc định được Hexo sử dụng chính là Swig. Swig không còn xa lạ gì đối với một lập trình viên JS. Tuy nhiên bạn cũng có thể sử dụng một template engine khác nếu muốn, Hexo cho phép bạn làm được điều này. So với Jekyll hoặc Hugo thì Hexo có đôi chút phức tạp hơn.",
+      "hexoPublished": true,
+      "tags": [
+        "GitHub",
+        "Hexo"
+      ],
+      "facepostId": "101587458211248_101744554862205"
+    }
+  ],
+  "to-destroy": [],
+  "to-publish": []
+}

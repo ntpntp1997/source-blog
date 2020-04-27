@@ -142,7 +142,9 @@ webPushNotification:
   trackingCode: 'BGIF-nevndimBG_qolCIfvKkPCEB1lX8orFiANy1SyN09kDtwmdEb_zer0UqBSwRWcCoWjOM7ObLl6zMqXl58YA'
 # hexo-generator-amp
 # The following settings is the quick start options.
-
+facebookAutoPublish:
+  pageId: '101587458211248'
+  accessTokenKey: EAANfa0BT1qoBAB7mipy0ghLzipfyzoloiwzX8IdG1ej4NZCqK479Ktd97ZArVuW4nZAljJjACyWjF9XCo4NCGLTSITm9xkXrUWI43QCalmjnQCHuGQ98lrhqeyB4V9f9R4n2nv7bUB6NzZBCH6NrKQ2GSgRnjWLTLZBKtmkFFegZDZD
 generator_amp:
   templateDir: amp-template
   assetDistDir: amp-dist

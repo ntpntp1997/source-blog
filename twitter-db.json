@@ -1,0 +1,51 @@
+{
+  "published": [],
+  "to-destroy": [],
+  "to-publish": [
+    {
+      "title": "Hướng dẫn xây dựng một trang blog cá nhân đơn giản bằng Hexo và deploy lên github",
+      "permalink": "https://ntpntp1997.github.io/Huong-dan-xay-dung-mot-trang-blog-ca-nhan-don-gian-bang-Hexo-va-deploy-len-github/",
+      "hexoPublished": true,
+      "tags": [
+        "GitHub",
+        "Hexo"
+      ]
+    },
+    {
+      "title": "about",
+      "permalink": "https://ntpntp1997.github.io/about/index.html",
+      "hexoPublished": true,
+      "tags": []
+    },
+    {
+      "title": "categories",
+      "permalink": "https://ntpntp1997.github.io/categories/index.html",
+      "hexoPublished": true,
+      "tags": []
+    },
+    {
+      "title": "help",
+      "permalink": "https://ntpntp1997.github.io/help/index.html",
+      "hexoPublished": true,
+      "tags": []
+    },
+    {
+      "title": "link",
+      "permalink": "https://ntpntp1997.github.io/link/index.html",
+      "hexoPublished": true,
+      "tags": []
+    },
+    {
+      "title": "tags",
+      "permalink": "https://ntpntp1997.github.io/tags/index.html",
+      "hexoPublished": true,
+      "tags": []
+    },
+    {
+      "title": "search",
+      "permalink": "https://ntpntp1997.github.io/search/index.html",
+      "hexoPublished": true,
+      "tags": []
+    }
+  ]
+}
