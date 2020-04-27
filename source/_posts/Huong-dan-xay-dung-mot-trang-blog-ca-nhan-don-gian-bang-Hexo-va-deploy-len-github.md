@@ -1,6 +1,8 @@
 ---
-title: Hướng dẫn làm một trang blog cá nhân bằng Hexo
+title: Hướng dẫn xây dựng một trang blog cá nhân đơn giản bằng Hexo và deploy lên github
 date: 2020-04-24 13:21:02
+description: 'Hexo được tạo ra bằng Node.js và với mục đích chính dùng cho trang blog. Giống với rất nhiều static site generators khác, bạn cũng sẽ soạn thảo nội dung với markdown. Template mặc định được Hexo sử dụng chính là Swig. Swig không còn xa lạ gì đối với một lập trình viên JS. Tuy nhiên bạn cũng có thể sử dụng một template engine khác nếu muốn, Hexo cho phép bạn làm được điều này. So với Jekyll hoặc Hugo thì Hexo có đôi chút phức tạp hơn.'
+keywords: 'Blog, website static, website dynamic, Hugo, Jekyll, Hexo, Gatsby, github'
 tags:
   - 'GitHub'
   - 'Hexo'
@@ -9,11 +11,22 @@ categories:
   - 'Developer'
 photos:
   ['https://fech.in/static/images/cover/convert-excel-to-markdown-table.jpeg']
-banner: 'https://fech.in/static/images/cover/convert-excel-to-markdown-table.jpeg'
+banner: '/images/hexo.png'
+thumbnail: '/images/hexo.png'
 ---
+
+Chuyện tạo ra một trang blog bằng các opensource CMS như wordpress, ghost, joomla... bây giờ là quá dễ dàng, nhanh gọn. Nhưng nó cũng có một số khuyết điểm của nó: như cồng kềnh, hay nếu không được tối ưu tốt sẽ gây ra hậu quả nặng site vân vân và mây mây ...
+
+Hầu hết các trang web trên mạng internet chúng ta truy cập mỗi ngày, chúng đều được tạo ra dynamic. Nghĩa là nội dung sẽ được lưu trữ trong database. Khi có người truy cập, server sẽ thực hiện quá trình load data và render HTML.
+
+Cũng có rất nhiều trang web tạo ra static thay vì dynamic. Bởi vì những ưu điểm static website mang lại rất lớn cho các trang web với nhu cầu cơ bản như blog, trang giới thiệu công ty, hay một website cá nhân. Tuy nhiên static website cũng mang trong mình nhiều vấn đề bất cập. Cụ thể trong trường hợp chúng ta muốn đổi layout, đổi theme thì phải làm sao? Đối với một static website xây dựng bằng cách tự soạn HTML thủ công để làm được việc này rất tốn công. Chúng ta phải ngồi và update lại từng HTML một, giả dụ trang blog của bạn có 1000 bài viết bạn sẽ phải sửa 1000 tệp tin HTML. Nhưng bạn vẫn thích static website bởi vì lợi ích quá lớn, và như cầu của bạn cũng không cần nhiều. Bạn chỉ cần một blog đơn giản để thỏa mãn đam mê viết lách mỗi ngày mà thôi. Vậy thì static site generators chính là giải pháp tối ưu dành cho bạn.
 
 Hôm nay mình sẽ hướng dẫn các bạn cách làm một trang blog cá nhân bằng Static website generator.
 Bài viết này mình sẽ sử dụng Hexo và GitHub làm hướng dẫn và deploy.
+
+## Hexo static website dành riêng cho viết blog
+
+Hexo được tạo ra bằng Node.js và với mục đích chính dùng cho trang blog. Giống với rất nhiều static site generators khác, bạn cũng sẽ soạn thảo nội dung với markdown. Template mặc định được Hexo sử dụng chính là Swig. Swig không còn xa lạ gì đối với một lập trình viên JS. Tuy nhiên bạn cũng có thể sử dụng một template engine khác nếu muốn, Hexo cho phép bạn làm được điều này. So với Jekyll hoặc Hugo thì Hexo có đôi chút phức tạp hơn.
 
 ### Yêu cầu
 

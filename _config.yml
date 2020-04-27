@@ -10,7 +10,7 @@ fbcomments:
   lang: en_US # (optional)
   order_by: time # (optional) time/reverse_time/social
   numPosts: 10 # (optional) defaults to 5
-
+fbAppId: 1312420762290725
 # Site
 title: Blog Developer
 subtitle: Technology programs
@@ -18,7 +18,8 @@ description: Developer Frontend BackEnd Website App Mobile
 keywords: Developer Frontend BackEnd
 author: Thanh Phuong
 language: en
-timezone: UTC +7
+timezone: ''
+thumbnail: /images/thumbnail.jpeg
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -139,3 +140,18 @@ webPushNotification:
   webpushrKey: 'M92QGqiliYPpMmTkNjgAALLIh5-4oNmLfFLrvlCRSY8'
   webpushrAuthToken: '5016'
   trackingCode: 'BGIF-nevndimBG_qolCIfvKkPCEB1lX8orFiANy1SyN09kDtwmdEb_zer0UqBSwRWcCoWjOM7ObLl6zMqXl58YA'
+# hexo-generator-amp
+# The following settings is the quick start options.
+
+generator_amp:
+  templateDir: amp-template
+  assetDistDir: amp-dist
+  logo:
+    path: sample/sample-logo.png
+    width: 600
+    height: 60
+  substituteTitleImage:
+    path: sample/sample-substituteTitleImage.png
+    width: 1024
+    height: 800
+  warningLog: false # To display warning, please set true.

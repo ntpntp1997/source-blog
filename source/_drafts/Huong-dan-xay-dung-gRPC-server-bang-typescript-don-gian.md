@@ -10,3 +10,13 @@ tags:
 ---
 
 Bài Viết đang được cập nhật
+
+Dạo này mình là một dự án microservices và có gặp phải các vấn đề về giao tiếp giữa các service trong khối microservices với nhau
+
+## gRPC là gì ???
+
+### Tại sao nên sử dụng gRPC ???
+
+## Xây dựng gRPC server bằng Typescript
+
+### Settup một project Typescript

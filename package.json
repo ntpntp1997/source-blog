@@ -14,10 +14,12 @@
   "dependencies": {
     "hexo": "^4.0.0",
     "hexo-all-minifier": "^0.5.3",
+    "hexo-auto-canonical": "^0.1.1",
     "hexo-auto-excerpt": "^1.1.2",
     "hexo-deployer-git": "^2.1.0",
     "hexo-fbcomments": "^1.0.6",
     "hexo-filter-nofollow": "^2.0.2",
+    "hexo-generator-amp": "^3.2.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-index": "^1.0.0",
